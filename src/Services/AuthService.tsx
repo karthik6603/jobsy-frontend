@@ -1,7 +1,7 @@
 import axios from "axios";
 import { error } from "console";
 import { removeUser } from "../Slices/UserSlice";
-const base_url = "http://localhost:8080/auth/";
+const base_url = "https://jobsy-backend-xeog.onrender.com/auth/";
 
 const loginUser = async (login: any) => {
   return axios

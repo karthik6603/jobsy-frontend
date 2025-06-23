@@ -1,6 +1,6 @@
 import axiosInstance from "../Interceptor/AxiosInterceptor";
 
-const base_url = "http://localhost:8080/jobs/";
+const base_url = "https://jobsy-backend-xeog.onrender.com/jobs/";
 const postJob = async (job: any) => {
   return axiosInstance
     .post(`/jobs/post`, job)
